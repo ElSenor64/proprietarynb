@@ -1,6 +1,6 @@
 from os import * # Import bash run abilities
 
-from editor import Editor # Import our classes from other files
+from Shell import * # Import our classes from other files
 from Shell import *
 
 import gi # Import GTK Stuff
@@ -13,6 +13,9 @@ class HomeWindow(Gtk.ApplicationWindow):
         # Construct window
         Gtk.Window.__init__(self, title="Proprietary Notes")
         self.set_border_width(10)
+
+        winShell = Shell()
+        winShell.
 
     
 
