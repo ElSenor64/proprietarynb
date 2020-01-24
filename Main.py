@@ -1,8 +1,7 @@
 from os import * # Import bash run abilities
 
 from editor import Editor # Import our classes from other files
-from refpane import ReferencePane
-from console import Console
+from Shell import *
 
 import gi # Import GTK Stuff
 gi.require_version('Gtk', '3.0')
@@ -12,10 +11,10 @@ import sys
 class HomeWindow(Gtk.ApplicationWindow):
     def __init__(self):
         # Construct window
-        Gtk.Window.__init__(self, title="Tux Script")
+        Gtk.Window.__init__(self, title="Proprietary Notes")
         self.set_border_width(10)
 
-    #NOTE placeholder
+    
 
 
 
